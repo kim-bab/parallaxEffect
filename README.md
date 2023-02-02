@@ -1,6 +1,6 @@
 # parallaxEffect
 스크롤을 이용한 패럴렉스 효과입니다.<br>
-<a href="https://kim-bab.github.io/parallaxEffect">링크</a>
+<a href="https://kim-bab.github.io/parallaxEffect/effect01.html">링크</a>
 
 
 offsetTop으로 각 section의 Y축 위치값을 구해서 스크롤 이벤트를 준다.
