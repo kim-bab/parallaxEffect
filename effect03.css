@@ -56,16 +56,21 @@ header .menu-wrap ul .menu-active a {
   position: fixed;
   top: 0;
   right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: auto;
   padding: 15px;
   transition: all 0.3s ease;
 }
 .nav ul li {
   margin: 0 10px;
-  padding: 15px 20px;
   display: inline-block;
   border-radius: 25px;
 }
 .nav ul li a {
+  padding: 15px 20px;
   font-size: 17px;
   color: #fff;
   display: block;
@@ -79,7 +84,7 @@ header .menu-wrap ul .menu-active a {
 
 .hidden-active {
   transition: all 0.3s ease;
-  top: -80px;
+  top: -50%;
 }
 
 .container {

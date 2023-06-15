@@ -112,16 +112,7 @@ header .menu-wrap ul .menu-active a {
   width: 150%;
   height: 100%;
   background: #fff;
-  -webkit-animation: show 2s cubic-bezier(0.5, 0, 0.1, 1) forwards;
-          animation: show 2s cubic-bezier(0.5, 0, 0.1, 1) forwards;
-}
-@-webkit-keyframes show {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(101%);
-  }
+  animation: show 2s cubic-bezier(0.5, 0, 0.1, 1) forwards;
 }
 @keyframes show {
   0% {
@@ -165,10 +156,8 @@ header .menu-wrap ul .menu-active a {
   height: 100%;
   background: #fff;
   transform: translateX(-100%);
-  -webkit-animation: show 2s cubic-bezier(0.3, 0, 0, 1) forwards;
-          animation: show 2s cubic-bezier(0.3, 0, 0, 1) forwards;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation: show 2s cubic-bezier(0.3, 0, 0, 1) forwards;
+  animation-delay: 0.5s;
 }
 @keyframes show {
   0% {

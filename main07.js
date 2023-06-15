@@ -19,7 +19,7 @@ window.addEventListener('scroll', () => {
 
 
   container.forEach((element, index)=>{
-    if(getScroll >= element.offsetTop - window.innerHeight/2){
+    if(getScroll >= element.offsetTop - window.innerHeight/1.5){
       navList.forEach((items) => {
         items.classList.remove('nav-active');
       })
@@ -56,7 +56,7 @@ navList.forEach((menuItems) => {
     const getHref = getTarget.getAttribute('href').slice(1);
 
     container.forEach((contents) => {
-      const getOffset = contents.offsetTop;
+      const getOffset = contents.offsetTop - window.innerHeight/2;
       if (contents.id === getHref) {
         window.scrollTo({
           top: getOffset,
